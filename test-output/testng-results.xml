@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-03T21:21:21 IST" name="All Test Suite" finished-at="2023-03-03T21:23:37 IST" duration-ms="136190">
+    <groups>
+    </groups>
+    <test started-at="2023-03-03T21:21:21 IST" name="C:/Users/chetan bhagat/IdeaProjects/Selenium_TestNG" finished-at="2023-03-03T21:21:58 IST" duration-ms="37175">
+      <class name="com.bridgelabz.test.WebinarScript">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bridgelabz.test.WebinarScript@5e316c74]" started-at="2023-03-03T21:21:21 IST" name="setUp" finished-at="2023-03-03T21:21:32 IST" duration-ms="10941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.bridgelabz.test.WebinarScript@5e316c74]" started-at="2023-03-03T21:21:32 IST" name="beforeSuite" finished-at="2023-03-03T21:21:32 IST" depends-on-methods="com.bridgelabz.base.BaseClass.setUp" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="webinarScreen(java.lang.String,java.lang.String)[pri:0, instance:com.bridgelabz.test.WebinarScript@5e316c74]" started-at="2023-03-03T21:21:32 IST" name="webinarScreen" description="Webinar Screen Automation" data-provider="dataProvider" finished-at="2023-03-03T21:21:47 IST" duration-ms="15022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8795421365]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[surabhi@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webinarScreen -->
+        <test-method signature="webinarScreen(java.lang.String,java.lang.String)[pri:0, instance:com.bridgelabz.test.WebinarScript@5e316c74]" started-at="2023-03-03T21:21:48 IST" name="webinarScreen" description="Webinar Screen Automation" data-provider="dataProvider" finished-at="2023-03-03T21:21:53 IST" duration-ms="4870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9857412365]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[meena@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webinarScreen -->
+        <test-method signature="webinarScreen(java.lang.String,java.lang.String)[pri:0, instance:com.bridgelabz.test.WebinarScript@5e316c74]" started-at="2023-03-03T21:21:53 IST" name="webinarScreen" description="Webinar Screen Automation" data-provider="dataProvider" finished-at="2023-03-03T21:21:57 IST" duration-ms="3766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7584963214]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[naina@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webinarScreen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.test.WebinarScript@5e316c74]" started-at="2023-03-03T21:21:58 IST" name="tearDown" finished-at="2023-03-03T21:21:58 IST" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.test.WebinarScript -->
+    </test> <!-- C:/Users/chetan bhagat/IdeaProjects/Selenium_TestNG -->
+    <test started-at="2023-03-03T21:21:59 IST" name="EdgeDemo" finished-at="2023-03-03T21:22:58 IST" duration-ms="59062">
+      <class name="com.bridgelabz.test.JavaScriptExecutor">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bridgelabz.test.JavaScriptExecutor@49d904ec]" started-at="2023-03-03T21:21:59 IST" name="setUp" finished-at="2023-03-03T21:22:30 IST" duration-ms="31374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="javaScriptExecutor_TestGuru99_Website()[pri:0, instance:com.bridgelabz.test.JavaScriptExecutor@49d904ec]" started-at="2023-03-03T21:22:30 IST" name="javaScriptExecutor_TestGuru99_Website" description="Demo of the javascriptExecutor" finished-at="2023-03-03T21:22:40 IST" duration-ms="10070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScriptExecutor_TestGuru99_Website -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.test.JavaScriptExecutor@49d904ec]" started-at="2023-03-03T21:22:40 IST" name="tearDown" finished-at="2023-03-03T21:22:58 IST" duration-ms="17618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.test.JavaScriptExecutor -->
+    </test> <!-- EdgeDemo -->
+    <test started-at="2023-03-03T21:22:59 IST" name="ChromeDemo" finished-at="2023-03-03T21:23:37 IST" duration-ms="38646">
+      <class name="com.bridgelabz.test.TestMethodParameter">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bridgelabz.test.TestMethodParameter@3c419631]" started-at="2023-03-03T21:22:59 IST" name="setUp" finished-at="2023-03-03T21:23:16 IST" duration-ms="17301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_PhNo_EId(java.lang.String,java.lang.String)[pri:0, instance:com.bridgelabz.test.TestMethodParameter@3c419631]" started-at="2023-03-03T21:23:16 IST" name="test_PhNo_EId" finished-at="2023-03-03T21:23:36 IST" duration-ms="20206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8745961236]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[surabhi@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_PhNo_EId -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.test.TestMethodParameter@3c419631]" started-at="2023-03-03T21:23:36 IST" name="tearDown" finished-at="2023-03-03T21:23:37 IST" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.test.TestMethodParameter -->
+      <class name="com.bridgelabz.test.WebinarScript">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.bridgelabz.test.WebinarScript@5e316c74]" started-at="2023-03-03T21:23:37 IST" name="afterSuite" finished-at="2023-03-03T21:23:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.bridgelabz.test.WebinarScript -->
+    </test> <!-- ChromeDemo -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

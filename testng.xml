@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+      <test verbose="2" preserve-order="true" name="C:/Users/chetan bhagat/IdeaProjects/Selenium_TestNG">
+<!--        <test name="ChromeDemo">-->
+            <parameter name="browser" value="Chrome"></parameter>
+            <classes>
+                <class name="com.bridgelabz.test.WebinarScript">
+                    <methods>
+                        <include name="webinarScreen"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>
+        <test name="EdgeDemo">
+            <parameter name="browser" value="Edge"></parameter>
+            <classes>
+                <class name="com.bridgelabz.test.JavaScriptExecutor">
+                    <methods>
+                        <include name="javaScriptExecutor_TestGuru99_Website"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>
+        <test name="ChromeDemo">
+            <classes>
+                <class name="com.bridgelabz.test.TestMethodParameter">
+                    <methods>
+                        <parameter name="phoneNo" value="8745961236"></parameter>
+                        <parameter name="emailId" value="surabhi@gmail.com"></parameter>
+                        <include name="test_PhNo_EId"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>
+</suite>
