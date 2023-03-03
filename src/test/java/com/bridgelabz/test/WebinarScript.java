@@ -36,7 +36,6 @@ public class WebinarScript extends BaseClass {
 //        driver.findElement(By.id("deftusername")).sendKeys("Surabhi Bhagat");
 //    }
 
-
     @Test(dataProvider = "dataProvider", dataProviderClass = DataProviderD.class)
     public void emailId(String emailId) throws InterruptedException {
         driver.get("https://bldev.bridgelabz.com/webinar");

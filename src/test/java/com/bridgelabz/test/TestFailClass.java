@@ -26,3 +26,4 @@ public class TestFailClass extends BaseClass {
         Assert.assertTrue(true);
     }
 }
+

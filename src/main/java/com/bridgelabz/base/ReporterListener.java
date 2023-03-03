@@ -32,7 +32,6 @@ public class ReporterListener implements IReporter {
                     System.out.println("Exception " + passedTestResult.getThrowable());
                 }
             }
-
         }
     }
 }

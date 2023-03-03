@@ -20,3 +20,4 @@ public class JavaScriptExecutor extends BaseClass {
         Thread.sleep(500);
     }
 }
+

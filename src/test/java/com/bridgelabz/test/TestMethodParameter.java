@@ -15,3 +15,4 @@ public class TestMethodParameter extends BaseClass {
         driver.findElement(By.id("deftemail")).sendKeys(emailId);
     }
 }
+
