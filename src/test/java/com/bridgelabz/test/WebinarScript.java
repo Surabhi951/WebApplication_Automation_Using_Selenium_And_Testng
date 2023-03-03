@@ -48,3 +48,4 @@ public class WebinarScript extends BaseClass {
         System.out.println("After Suite");
     }
 }
+

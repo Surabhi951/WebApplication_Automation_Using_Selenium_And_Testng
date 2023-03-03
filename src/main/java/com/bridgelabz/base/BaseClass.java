@@ -46,4 +46,3 @@ public class BaseClass {
         FileUtils.copyFile(srcFile,destFile);
     }
 }
-

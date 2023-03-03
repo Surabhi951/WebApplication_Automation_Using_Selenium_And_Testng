@@ -25,4 +25,3 @@ public class RobotClass extends BaseClass {
         robot.mouseWheel(5000);
     }
 }
-
